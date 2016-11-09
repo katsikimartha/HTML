@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>"Make your own" clothing tutorials</title>
+<link rel="stylesheet" href="hstyle.css" type="text/css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="row">
+<div class="header">
+</div>
+<ul class="topnav">
+  <li><a class="active" href="check.php">Home</a></li>
+  <li><a href="make-your-own-clothing-tutorials/submit-question.php">New Question</a></li>
+  <li><a href="make-your-own-clothing-tutorials/submit-new-clothing-tutorial.php">New Tutorial</a></li>
+  <li><a href="make-your-own-clothing-tutorials/tutorial-menu.php">Tutorials</a></li>
+  <li><a class="active" href="make-your-own-clothing-tutorials/questions-menu.php">Questions</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()"><img border="0" alt="menu" src="menu.png" width="15" height="5"></a>
+  </li>
+</ul>
+
+
+<!--When the size of the page is getting smaller, not all the categories will be shown. Instead an image appears which has a link. When clicked it calls the function below which will open the navigation as a drop-down-->
+<script>
+function myFunction() {
+    document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+}
+</script>
+
+<!--This is the home page for visitors. If someone is a user he will find the link below to log in or the link to sign up in this website if he is not a user already.-->
+<div class="col-3">
+   &nbsp;&nbsp;<a href="make-your-own-clothing-tutorials/register.php">Sign Up Here</a>
+   <a href="make-your-own-clothing-tutorials/index.php">Log In Here</a>
+</div>
+<div class="col-12">
+<h1 align="center">"Make your own" clothing tutorials</h1>
+
+</div>
+<div class="col-12">
+<!--The home page will also include the links for the services that this website provides. But if someone wants to open these links, he will have to sign up/log in first.-->
+    <h2 align="center">Submit your tutorial!</h2>
+    <div align="center">
+         <a href="make-your-own-clothing-tutorials/submit-new-clothing-tutorial.php" >Click Here</a>
+    </div>
+    <h2 align="center">Submit a new question!</h2>
+    <div align="center">
+          <a href="make-your-own-clothing-tutorials/submit-question.php" >Click Here</a>
+    </div>
+</div>
+<!--video width="200" controls>
+  <source src="" type="video/mp4">
+</video-->
+</div>
+</div>
+
+
+
+<!--the footer includes the links to the social media-->
+<div class="col-12">
+<div class="footer2">
+    <ul class="footr">
+        <li><img border="0" alt="fb" align="middle" src="img/facebook.png" width="15" height="15" hspace="12"></li>
+        <li><img border="0" alt="tw" align="middle" src="img/twitter.png" width="15" height="15" hspace="12"></li>
+        <li><img border="0" alt="tw" align="middle" src="img/instagram.png" width="15" height="15" hspace="12"></li>
+        <li><img border="0" alt="tw" align="middle" src="img/pinterest.png" width="15" height="15" hspace="12"></li>
+        <li><img border="0" alt="tw" align="middle" src="img/snapchat.png" width="15" height="15" hspace="12"></li>
+        <li><img border="0" alt="tw" align="middle" src="img/rss.png" width="15" height="15" hspace="12"></li>
+    </ul>
+</div>
+</div>
+</body>
+</html>
